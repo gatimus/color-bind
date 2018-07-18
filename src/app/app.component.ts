@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+
+  public color = 'primary';
+
+  public disabled = false;
+
+  public label = 'button';
+
+  public click(event: MouseEvent): void { }
+
 }
